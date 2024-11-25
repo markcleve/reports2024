@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organograma - ASCOM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            text-align: justify;
+        }
+        header {
+            background-color: #004085;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        header h1 {
+            color: #d6d6d6; /* Cinza claro */
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 24px;
+            text-align: center;
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 8px 12px;
+            margin: 8px 0;
+            background: #e9ecef;
+            border-radius: 4px;
+            color: #333;
+        }
+        li:hover {
+            background: #ced4da;
+        }
+        .sub-list {
+            margin-left: 20px;
+        }
+        .info {
+            margin: 20px 0;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #004085;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .download-button, .back-button {
+            background-color: #004085;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .download-button:hover, .back-button:hover {
+            background-color: #003366;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Organograma - ASCOM</h1>
+    </header>
+	    <main>
+		<!-- Container da Imagem -->
+        <div class="image-container">
+            <img src="imagem 1.png" alt="Organograma ASCOM">
+        </div>
+        <h1>Assessoria de Comunicação (ASCOM)</h1>
+        <ul>
+            <li>ASCOM-ADM - Administrativo</li>
+            <li>ASCOM-CHEFIA-SC - Superintendência de Comunicação</li>
+            <ul class="sub-list">
+                <li>ASCOM-CV - Comunicação Visual</li>
+            </ul>
+            <li>ASCOM-SJ - Superintendência de Jornalismo</li>
+            <ul class="sub-list">
+                <li>ASCOM-SJ-SR - Setor de Redação</li>
+            </ul>
+        </ul>
+            <section class="info">
+            <h2>Informações da ASCOM</h2>
+            <p>A Assessoria de Comunicação - ASCOM tem a função de estabelecer a comunicação entre o poder público municipal e os munícipes. Para isso, a ASCOM desenvolve a produção de matérias jornalísticas e releases relacionados aos atos da administração municipal, divulgando-os através de veículos de comunicação apropriados. Compete à ASCOM a convocação dos canais de comunicação para entrevistas coletivas, o assessoramento do prefeito no seu relacionamento com a imprensa e a comunidade, servindo, inclusive, de porta-voz ao administrador municipal acerca do comportamento da opinião pública em relação às atividades de governo. A ASCOM também é responsável por coordenar, supervisionar e controlar a publicidade no âmbito das assessorias de comunicação dos órgãos e entidades do poder executivo.</p>
+            <p><strong>Atendimento:</strong> 08h às 12h, 14h às 18h de segunda à sexta.</p>
+            <p><strong>Contato:</strong> ascom@imperatriz.ma.gov.br</p>
+            <p><strong>Endereço:</strong> Rua Coriolano Milhomem, SN - Estádio Municipal</p>
+            <h2>Dados de Funcionários</h2>
+            <ul>
+                <li><strong>Funcionários Efetivos:</strong> 1</li>
+                <li><strong>Funcionários Nomeados:</strong> 25</li>
+                <li><strong>Folha Bruta:</strong> R$ 102.797,87</li>
+                <li><strong>Maior Salário:</strong> Mariana Ferreira Campos - Professor Nível III - R$ 9.297,82</li>
+                <li><strong>Menor Salário:</strong> Diretor de Departamento - R$ 1.500,00</li>
+                <li><strong>Salário do Secretário:</strong> R$ 18.000,00</li>
+            </ul>
+            <div class="button-container">
+                <a href="file:///G:/Meu%20Drive/transição%202024-2025/relatorio%20final/teste%201/ASCOM/A_Comissao_3_assinado.pdf" target="_blank">
+                    <button class="download-button">OFICIO DE RESPOSTA DA SECRETARIA</button>
+                </a>
+            </div>
+            <!-- Botão de retorno -->
+            <div class="button-container">
+                <button class="back-button" onclick="window.history.back()">Voltar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; Gestão 2025 - 2029 Imperatriz -MA - Todos os direitos reservados.
+    </footer>
+</body>
+</html>
